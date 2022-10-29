@@ -9,7 +9,7 @@ Service Provider for Proxy Checking (type - http, socks4, socks5) that returns a
 
 Type the following command in your project directory
 
-`composer require sahusoftcom/proxy-checker`
+`composer require truedevphp2022/proxy-checker`
 
 OR
 
