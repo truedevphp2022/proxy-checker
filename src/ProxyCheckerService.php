@@ -62,7 +62,9 @@ class ProxyCheckerService
                     CURLOPT_HEADER         => true,
                     CURLOPT_TIMEOUT        => $this->config['timeout'],
                     CURLOPT_CONNECTTIMEOUT => $this->config['timeout'],
-                    CURLOPT_RETURNTRANSFER => true
+                    CURLOPT_RETURNTRANSFER => true,
+            CURLOPT_SSL_VERIFYHOST => 0,
+            CURLOPT_SSL_VERIFYPEER => 0
                 ];
 
         if (!empty($proxyPassword)) {
