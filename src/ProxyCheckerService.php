@@ -59,7 +59,7 @@ class ProxyCheckerService
 
         $options = [
                     CURLOPT_PROXY          => $proxyIp,
-                    CURLOPT_HEADER         => true,
+                    CURLOPT_HEADER         => 0,
                     CURLOPT_TIMEOUT        => $this->config['timeout'],
                     CURLOPT_CONNECTTIMEOUT => $this->config['timeout'],
                     CURLOPT_RETURNTRANSFER => true,
