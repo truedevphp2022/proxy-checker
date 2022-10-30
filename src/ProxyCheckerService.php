@@ -143,7 +143,8 @@ class ProxyCheckerService
                     'allowed'     => $allowed,
                     'disallowed'  => $disallowed,
                     'proxy_level' => $proxyLevel,
-                    'info'        => $info
+                    'info'        => $info,
+                    'content' => $content
                 ];
     }
 }
